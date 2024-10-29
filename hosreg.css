@@ -1,0 +1,93 @@
+.A{
+    background-image: url("/bg5.jpg");
+}
+label{
+    font-family: monospace;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+input[type="text"]{
+    width: 250px;
+    height: 25px;
+    border-radius: 20px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 14px;
+    border: 2px solid darkblue;
+
+}
+input[type="date"]{
+    width: 250px;
+    height: 25px;
+    border-radius: 20px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 14px;
+    border: 2px solid darkblue;
+
+}
+input[type="submit"]{
+    width: 120px;
+    height:25px;
+    border-radius: 15px;
+    background-color: rgb(152, 211, 247);
+    color:black;
+    text-align: center;
+    border:2px solid darkblue;
+    cursor: pointer;
+}
+input[type="reset"]{
+    width: 120px;
+    height:25px;
+    border-radius: 15px;
+    background-color: rgb(152, 211, 247);
+    color:black;
+    text-align: center;
+    border:2px solid darkblue;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: rgb(160, 233, 240); 
+}
+input[type="reset"]:hover{
+    background-color: rgb(160, 233, 240); 
+}
+textarea{
+    width: 250px;
+    height: 25px;
+    border-radius: 20px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 14px;
+    border: 2px solid darkblue;
+}
+input[type="number"]{
+    width: 250px;
+    height: 25px;
+    border-radius: 20px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 14px;
+    border: 2px solid darkblue;
+
+}
+body{
+    background-size: cover;
+    
+}
+.box{
+    background-image: url('/bg3.jpg');
+    width:500px;
+    border-radius: 20px;
+    background-size: 2000px;
+}
+legend{
+    
+    font-family: monospace;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+fieldset{
+    border-radius:20px;
+}
